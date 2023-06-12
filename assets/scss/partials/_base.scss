@@ -1,17 +1,24 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&display=swap');
 
 * {
   font-family: inherit;
+  p,h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+  }
 }
 
 body {
   @include ltr {
-    font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Work Sans', 'Hiragino Sans GB', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
     font-size: 1.6rem;
   }
 
   @include rtl {
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
     font-size: 1.5rem;
   }
 }
