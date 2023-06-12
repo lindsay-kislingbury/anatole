@@ -46,6 +46,7 @@
   }
 
   &__introduction {
+    font-family: 'Cousine', monospace;
     top: 40%;
     text-align: center;
 
@@ -60,7 +61,8 @@
     }
 
     &-title {
-      text-transform: uppercase;
+      font-family: 'Cousine', monospace;
+      text-transform: lowercase;
       font-weight: bold;
       letter-spacing: 2px;
       line-height: 1;
